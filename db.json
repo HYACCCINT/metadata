@@ -1,5 +1,5 @@
 {
-"bundles"= [
+"bundles": [
     {
         "name": "kube-node-mongodb-starter",
         "tier": "Starter",
