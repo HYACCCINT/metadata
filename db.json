@@ -113,6 +113,12 @@
                         "description": "my description"
                     },
                     {
+                  "name": "sql",
+                  "category": "Cloud Data Services",
+                  "displayName": "sql",
+                  "description": "my description"
+              },
+                    {
                         "name": "singlezone",
                         "category": "HA Deployments",
                         "displayName": "Single Zone",
