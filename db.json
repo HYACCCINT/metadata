@@ -64,7 +64,7 @@
               {
                   "name": "sql",
                   "category": "Cloud Data Services",
-                  "displayName": "sql",
+                  "displayName": "SQL",
                   "description": "my description"
               },
               {
@@ -97,13 +97,13 @@
                     {
                   "name": "iks",
                   "category": "Microservice",
-                  "displayName": "Kubernetes+1",
+                  "displayName": "SomeMicroService",
                   "description": "my description"
               },
               {
                   "name": "iks",
                   "category": "Microservice",
-                  "displayName": "Kubernetes+2",
+                  "displayName": "SomeOtherMicroService",
                   "description": "my description"
               },
                     {
@@ -115,7 +115,7 @@
                     {
                   "name": "sql",
                   "category": "Cloud Data Services",
-                  "displayName": "sql",
+                  "displayName": "SQL",
                   "description": "my description"
               },
                     {
