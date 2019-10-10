@@ -1,0 +1,105 @@
+{
+bundles= [
+    {
+        "name": "kube-node-mongodb-starter",
+        "tier": "Starter",
+        "displayName": "Starter P(okemon)ack",
+        "description": "<h1>A small hatchling of your cloud project.</h1>",
+        "image" : "https://cdn.bulbagarden.net/upload/thumb/9/99/333Swablu.png/500px-333Swablu.png",
+        "items": [
+            {
+                "name": "iks",
+                "category": "Container",
+                "displayName": "Kubernetes",
+                "description": "<h1>my description</h1>"
+            },
+            {
+                "name": "iks",
+                "category": "Microservice",
+                "displayName": "Kubernetes",
+                "description": "<h1>my description</h1>"
+            },
+            {
+                "name": "postgresql",
+                "category": "Cloud Data Services",
+                "displayName": "PostgreSQL",
+                "description": "<h1>my description</h1>"
+            },
+            {
+                "name": "singlezone",
+                "category": "HA Deployments",
+                "displayName": "Single Zone",
+                "description": "<h1>my description</h1>"
+            },
+            
+                                                             
+        ]
+
+    },
+    {
+      "name": "kube-node-mongodb-mid",
+      "tier": "Mid",
+      "displayName": "Evolved P(okemon)ack",
+      "description": "<h1>After much trial and growth, your cloud as evolved to be larger and more powerful!</h1>",
+      "image" : "https://cdn.bulbagarden.net/upload/thumb/d/da/334Altaria.png/500px-334Altaria.png",
+      "items": [
+          {
+              "name": "iks",
+              "category": "Container",
+              "displayName": "Kubernetes",
+              "description": "<h1>my description</h1>"
+          },
+          {
+              "name": "iks",
+              "category": "Microservice",
+              "displayName": "Kubernetes",
+              "description": "<h1>my description</h1>"
+          },
+          {
+              "name": "postgresql",
+              "category": "Cloud Data Services",
+              "displayName": "PostgreSQL",
+              "description": "<h1>my description</h1>"
+          },
+          {
+              "name": "singlezone",
+              "category": "HA Deployments",
+              "displayName": "Single Zone",
+              "description": "<h1>my description</h1>"
+          },
+        ]
+        },
+          {
+            "name": "kube-node-mongodb-high",
+            "tier": "High",
+            "displayName": "Mega Evolved P(okemon)ack",
+            "description": "<h1>Your cloud may as well be the Argentavis of clouds. After this mega evolution, it shall knows no bounds.</h1>",
+            "image" : "https://cdn.bulbagarden.net/upload/thumb/0/08/334Altaria-Mega.png/220px-334Altaria-Mega.png",
+            "items": [
+                {
+                    "name": "iks",
+                    "category": "Container",
+                    "displayName": "Kubernetes",
+                    "description": "<h1>my description</h1>"
+                },
+                {
+                    "name": "iks",
+                    "category": "Microservice",
+                    "displayName": "Kubernetes",
+                    "description": "<h1>my description</h1>"
+                },
+                {
+                    "name": "postgresql",
+                    "category": "Cloud Data Services",
+                    "displayName": "PostgreSQL",
+                    "description": "<h1>my description</h1>"
+                },
+                {
+                    "name": "singlezone",
+                    "category": "HA Deployments",
+                    "displayName": "Single Zone",
+                    "description": "<h1>my description</h1>"}
+                ]
+              }
+]
+}
