@@ -56,9 +56,15 @@
                   "description": "my description"
               },
               {
-                  "name": "postgresql",
+                  "name": "iks",
+                  "category": "Microservice",
+                  "displayName": "Kubernetes+1",
+                  "description": "my description"
+              },
+              {
+                  "name": "sql",
                   "category": "Cloud Data Services",
-                  "displayName": "PostgreSQL",
+                  "displayName": "sql",
                   "description": "my description"
               },
               {
@@ -88,6 +94,18 @@
                         "displayName": "Kubernetes",
                         "description": "my description"
                     },
+                    {
+                  "name": "iks",
+                  "category": "Microservice",
+                  "displayName": "Kubernetes+1",
+                  "description": "my description"
+              },
+              {
+                  "name": "iks",
+                  "category": "Microservice",
+                  "displayName": "Kubernetes+2",
+                  "description": "my description"
+              },
                     {
                         "name": "postgresql",
                         "category": "Cloud Data Services",
