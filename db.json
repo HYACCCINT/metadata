@@ -58,7 +58,7 @@
         {
           "name": "kube-node-mongodb-mid",
           "tier": "Mid",
-          "displayName": "Evolved P(okemon)ack",
+          "displayName": "Evolved Pack",
           "price":"$200/month",
           "description": "After much trial and growth, your cloud as evolved to be larger and more powerful!",
           "image" : "https://cdn.bulbagarden.net/upload/thumb/d/da/334Altaria.png/500px-334Altaria.png",
@@ -119,7 +119,7 @@
               {
                 "name": "kube-node-mongodb-high",
                 "tier": "High",
-                "displayName": "Mega Evolved P(okemon)ack",
+                "displayName": "Mega Evolved Pack",
                 "price": "$10,000/month",
                 "description": "Your cloud may as well be the Argentavis of clouds. After this mega evolution, it shall knows no bounds.",
                 "image" : "https://cdn.bulbagarden.net/upload/thumb/0/08/334Altaria-Mega.png/220px-334Altaria-Mega.png",
