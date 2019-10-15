@@ -3,32 +3,51 @@
         {
             "name": "kube-node-mongodb-starter",
             "tier": "Starter",
-            "displayName": "Starter P(okemon)ack",
+            "price":"Free",
+            "displayName": "Starter Pack",
             "description": "A small hatchling of your cloud project.",
             "image" : "https://cdn.bulbagarden.net/upload/thumb/9/99/333Swablu.png/500px-333Swablu.png",
             "items": [
                 {
                     "name": "iks",
                     "category": "Container",
-                    "displayName": "Kubernetes",
-                    "description": "Kubernetes (commonly stylized as k8s[3]) is an open-source container-orchestration system for automating application deployment, scaling, and management.[4] It was originally designed by Google, and is now maintained by the Cloud Native Computing Foundation. "
+                    "displayName": "Free Kubernetes",
+                    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/440px-Kubernetes_logo_without_workmark.svg.png",
+                    "description": "my description"
                 },
                 {
                     "name": "iks",
                     "category": "Microservice",
-                    "displayName": "Kubernetes",
+                    "displayName": "NodeJS",
+                    "icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/440px-Node.js_logo.svg.png",
+                    "description": "my description"
+                },
+                {
+                    "name": "iks",
+                    "category": "Microservice",
+                    "displayName": "ExpressJS",
+                    "icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/440px-Expressjs.png",
+                    "description": "my description"
+                },
+                {
+                    "name": "iks",
+                    "category": "Microservice",
+                    "displayName": "Generate Hello World",
+                    "icon":"",
                     "description": "my description"
                 },
                 {
                     "name": "postgresql",
                     "category": "Cloud Data Services",
-                    "displayName": "PostgreSQL",
+                    "displayName": "Community PostgreSQL",
+                    "icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/440px-Postgresql_elephant.svg.png",
                     "description": "my description"
                 },
                 {
                     "name": "singlezone",
                     "category": "HA Deployments",
-                    "displayName": "Single Zone",
+                    "displayName": "Single Zone | One Node",
+                    "icon":"",
                     "description": "my description"
                 }
                 
@@ -40,90 +59,123 @@
           "name": "kube-node-mongodb-mid",
           "tier": "Mid",
           "displayName": "Evolved P(okemon)ack",
+          "price":"$200/month",
           "description": "After much trial and growth, your cloud as evolved to be larger and more powerful!",
           "image" : "https://cdn.bulbagarden.net/upload/thumb/d/da/334Altaria.png/500px-334Altaria.png",
           "items": [
-              {
-                  "name": "iks",
-                  "category": "Container",
-                  "displayName": "Kubernetes",
-                  "description": "my description"
-              },
-              {
-                  "name": "iks",
-                  "category": "Microservice",
-                  "displayName": "Kubernetes",
-                  "description": "my description"
-              },
-              {
-                  "name": "iks",
-                  "category": "Microservice",
-                  "displayName": "Kubernetes+1",
-                  "description": "my description"
-              },
-              {
-                  "name": "sql",
-                  "category": "Cloud Data Services",
-                  "displayName": "SQL",
-                  "description": "my description"
-              },
-              {
-                  "name": "singlezone",
-                  "category": "HA Deployments",
-                  "displayName": "Single Zone",
-                  "description": "my description"
-              }
-            ]
+            {
+                "name": "iks",
+                "category": "Container",
+                "displayName": "Paid Kubernetes",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/440px-Kubernetes_logo_without_workmark.svg.png",
+                "description": "my description"
+            },
+            {
+                "name": "iks",
+                "category": "Microservice",
+                "displayName": "NodeJS",
+                "icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/440px-Node.js_logo.svg.png",
+                "description": "my description"
+            },
+            {
+                "name": "iks",
+                "category": "Microservice",
+                "displayName": "ExpressJS",
+                "icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/440px-Expressjs.png",
+                "description": "my description"
+            },
+            {
+                "name": "iks",
+                "category": "Microservice",
+                "displayName": "Generate Hello World",
+                "icon":"",
+                "description": "my description"
+            },
+            {
+                "name": "postgresql",
+                "category": "Cloud Data Services",
+                "displayName": "Database PostgreSQL",
+                "icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/440px-Postgresql_elephant.svg.png",
+                "description": "my description"
+            },
+            {
+                "name": "singlezone",
+                "category": "HA Deployments",
+                "displayName": "Single Zone | One Node",
+                "icon":"",
+                "description": "my description"
+            },
+            {
+                "name": "litelogging",
+                "category": "Cloud Management",
+                "displayName": "Lite Logging",
+                "icon":"",
+                "description": "my description"
+            }
+            
+                                                             
+        ]
             },
               {
                 "name": "kube-node-mongodb-high",
                 "tier": "High",
                 "displayName": "Mega Evolved P(okemon)ack",
+                "price": "$10,000/month",
                 "description": "Your cloud may as well be the Argentavis of clouds. After this mega evolution, it shall knows no bounds.",
                 "image" : "https://cdn.bulbagarden.net/upload/thumb/0/08/334Altaria-Mega.png/220px-334Altaria-Mega.png",
                 "items": [
                     {
                         "name": "iks",
                         "category": "Container",
-                        "displayName": "Kubernetes",
+                        "displayName": "Paid Kubernetes",
+                        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/440px-Kubernetes_logo_without_workmark.svg.png",
                         "description": "my description"
                     },
                     {
                         "name": "iks",
                         "category": "Microservice",
-                        "displayName": "Kubernetes",
+                        "displayName": "NodeJS",
+                        "icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/440px-Node.js_logo.svg.png",
                         "description": "my description"
                     },
                     {
-                  "name": "iks",
-                  "category": "Microservice",
-                  "displayName": "SomeMicroService",
-                  "description": "my description"
-              },
-              {
-                  "name": "iks",
-                  "category": "Microservice",
-                  "displayName": "SomeOtherMicroService",
-                  "description": "my description"
-              },
+                        "name": "iks",
+                        "category": "Microservice",
+                        "displayName": "ExpressJS",
+                        "icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/440px-Expressjs.png",
+                        "description": "my description"
+                    },
                     {
-                        "name": "postgresql",
+                        "name": "iks",
+                        "category": "Microservice",
+                        "displayName": "Bring your own app",
+                        "icon":"",
+                        "description": "my description"
+                    },
+                    {
+                        "name": "mongodb",
                         "category": "Cloud Data Services",
-                        "displayName": "PostgreSQL",
+                        "displayName": "Database for MongoDB",
+                        "icon":"https://upload.wikimedia.org/wikipedia/en/thumb/4/45/MongoDB-Logo.svg/500px-MongoDB-Logo.svg.png",
                         "description": "my description"
                     },
-                    {
-                  "name": "sql",
-                  "category": "Cloud Data Services",
-                  "displayName": "SQL",
-                  "description": "my description"
-              },
                     {
                         "name": "singlezone",
                         "category": "HA Deployments",
-                        "displayName": "Single Zone",
-                        "description": "my description"}
-                    ]
+                        "displayName": "Single Zone | One Node",
+                        "icon":"",
+                        "description": "my description"
+                    },
+                    {
+                        "name": "paidlogging",
+                        "category": "Cloud Management",
+                        "displayName": "Paid Logging",
+                        "icon":"",
+                        "description": "my description"
+                    }
+                    
+                                                                     
+                ]
                   }
     ]
 }
