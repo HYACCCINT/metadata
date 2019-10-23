@@ -6,7 +6,7 @@
             "price":"Free",
             "displayName": "Starter Pack",
             "description": "A small hatchling of your cloud project.",
-            "image" : "https://cdn.bulbagarden.net/upload/thumb/9/99/333Swablu.png/500px-333Swablu.png",
+            "image" : "http://oneeaston.com/wp-content/uploads/2015/10/placeholder-pattern.jpg",
             "items": [
                 {
                     "name": "iks",
@@ -61,7 +61,7 @@
           "displayName": "Evolved Pack",
           "price":"$200/month",
           "description": "After much trial and growth, your cloud as evolved to be larger and more powerful!",
-          "image" : "https://cdn.bulbagarden.net/upload/thumb/d/da/334Altaria.png/500px-334Altaria.png",
+          "image" : "https://inpokulis.com/wp-content/uploads/2015/12/placeholder.gif",
           "items": [
             {
                 "name": "iks",
@@ -122,7 +122,7 @@
                 "displayName": "Mega Evolved Pack",
                 "price": "$10,000/month",
                 "description": "Your cloud may as well be the Argentavis of clouds. After this mega evolution, it shall knows no bounds.",
-                "image" : "https://cdn.bulbagarden.net/upload/thumb/0/08/334Altaria-Mega.png/220px-334Altaria-Mega.png",
+                "image" : "https://www.ngohub.asia/assets/placeholder-5318bd543e3480ac5208c1b2a39cb2cbff1e300a622de73e5eb1314ee99f2baa.jpg",
                 "items": [
                     {
                         "name": "iks",
