@@ -1,184 +1,445 @@
 {
-    "bundles": [
+  "bundles": [
+    {
+      "name": "kube-node-vue-commposgresql",
+      "displayName": "Entry Pack",
+      "description": "\u003ch1\u003eA small hatchling of your cloud project.\u003c/h1\u003e",
+      "image": "http://oneeaston.com/wp-content/uploads/2015/10/placeholder-pattern.jpg",
+      "category": {
+        "name": "Starter",
+        "displayName": "Starter Bundle",
+        "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+      },
+      "items": [
         {
-            "name": "kube-node-mongodb-starter",
-            "tier": "Starter",
-            "price":"Free",
-            "displayName": "Starter Pack",
-            "description": "A small hatchling of your cloud project.",
-            "image" : "http://oneeaston.com/wp-content/uploads/2015/10/placeholder-pattern.jpg",
-            "items": [
-                {
-                    "name": "iks",
-                    "category": "Container",
-                    "displayName": "Free Kubernetes",
-                    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/440px-Kubernetes_logo_without_workmark.svg.png",
-                    "description": "my description"
-                },
-                {
-                    "name": "iks",
-                    "category": "Microservice",
-                    "displayName": "NodeJS",
-                    "icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/440px-Node.js_logo.svg.png",
-                    "description": "my description"
-                },
-                {
-                    "name": "iks",
-                    "category": "Microservice",
-                    "displayName": "ExpressJS",
-                    "icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/440px-Expressjs.png",
-                    "description": "my description"
-                },
-                {
-                    "name": "iks",
-                    "category": "Microservice",
-                    "displayName": "Generate Hello World",
-                    "icon":"",
-                    "description": "my description"
-                },
-                {
-                    "name": "postgresql",
-                    "category": "Cloud Data Services",
-                    "displayName": "Community PostgreSQL",
-                    "icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/440px-Postgresql_elephant.svg.png",
-                    "description": "my description"
-                },
-                {
-                    "name": "singlezone",
-                    "category": "HA Deployments",
-                    "displayName": "Single Zone | One Node",
-                    "icon":"",
-                    "description": "my description"
-                }
-                
-                                                                 
-            ]
-    
+          "name": "iks",
+          "displayName": "Kubernetes",
+          "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+          "category": {
+            "name": "Container",
+            "displayName": "Container",
+            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+          },
+          "flavours": {
+            "details": {
+              "name": "free",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/440px-Kubernetes_logo_without_workmark.svg.png",
+              "displayName": "Free Kubernetes",
+              "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+            },
+            "cost": { "type": "GB", "measurement": "hours", "unitPrice": 0 },
+            "inputs": [
+              {
+                "name": "cluster_name",
+                "type": "string",
+                "displayName": "Cluster Name"
+              },
+              { "name": "ibmcloud_api_key", "type": "API_KEY" },
+              { "name": "ibmcloud_resource_group", "type": "RESOURCE_GROUP" },
+              { "name": "ibmcloud_region", "type": "REGION" },
+              { "name": "ibmcloud_data_center", "type": "DATA_CENTER" }
+            ],
+            "instructions": ["freekubinstructions"]
+          }
         },
         {
-          "name": "kube-node-mongodb-mid",
-          "tier": "Mid",
-          "displayName": "Evolved Pack",
-          "price":"$200/month",
-          "description": "After much trial and growth, your cloud as evolved to be larger and more powerful!",
-          "image" : "https://inpokulis.com/wp-content/uploads/2015/12/placeholder.gif",
-          "items": [
-            {
-                "name": "iks",
-                "category": "Container",
-                "displayName": "Paid Kubernetes",
-                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/440px-Kubernetes_logo_without_workmark.svg.png",
-                "description": "my description"
+          "name": "nodejs",
+          "displayName": "Node JS",
+          "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/440px-Node.js_logo.svg.png",
+          "category": {
+            "name": "microlang",
+            "displayName": "Microservice Language",
+            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+          },
+          "flavours": {
+            "details": {
+              "name": "vuejs",
+              "displayName": "Vue JS",
+              "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+              "image": "https://vuejs.org/images/logo.png"
             },
-            {
-                "name": "iks",
-                "category": "Microservice",
-                "displayName": "NodeJS",
-                "icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/440px-Node.js_logo.svg.png",
-                "description": "my description"
-            },
-            {
-                "name": "iks",
-                "category": "Microservice",
-                "displayName": "ExpressJS",
-                "icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/440px-Expressjs.png",
-                "description": "my description"
-            },
-            {
-                "name": "iks",
-                "category": "Microservice",
-                "displayName": "Generate Hello World",
-                "icon":"",
-                "description": "my description"
-            },
-            {
-                "name": "postgresql",
-                "category": "Cloud Data Services",
-                "displayName": "Database PostgreSQL",
-                "icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/440px-Postgresql_elephant.svg.png",
-                "description": "my description"
-            },
-            {
-                "name": "singlezone",
-                "category": "HA Deployments",
-                "displayName": "Single Zone | One Node",
-                "icon":"",
-                "description": "my description"
-            },
-            {
-                "name": "litelogging",
-                "category": "Cloud Management",
-                "displayName": "Lite Logging",
-                "icon":"",
-                "description": "my description"
-            }
-            
-                                                             
-        ]
-            },
+            "cost": { "type": "GB", "measurement": "hours", "unitPrice": 0 },
+            "inputs": [
+              { "name": "git_url", "type": "GIT_URL" },
+              { "name": "git_api_key", "type": "GIT_API_KEY" },
+              { "name": "ibmcloud_api_key", "type": "API_KEY" },
               {
-                "name": "kube-node-mongodb-high",
-                "tier": "High",
-                "displayName": "Mega Evolved Pack",
-                "price": "$10,000/month",
-                "description": "Your cloud may as well be the Argentavis of clouds. After this mega evolution, it shall knows no bounds.",
-                "image" : "https://www.ngohub.asia/assets/placeholder-5318bd543e3480ac5208c1b2a39cb2cbff1e300a622de73e5eb1314ee99f2baa.jpg",
-                "items": [
-                    {
-                        "name": "iks",
-                        "category": "Container",
-                        "displayName": "Paid Kubernetes",
-                        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/440px-Kubernetes_logo_without_workmark.svg.png",
-                        "description": "my description"
-                    },
-                    {
-                        "name": "iks",
-                        "category": "Microservice",
-                        "displayName": "NodeJS",
-                        "icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/440px-Node.js_logo.svg.png",
-                        "description": "my description"
-                    },
-                    {
-                        "name": "iks",
-                        "category": "Microservice",
-                        "displayName": "ExpressJS",
-                        "icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/440px-Expressjs.png",
-                        "description": "my description"
-                    },
-                    {
-                        "name": "iks",
-                        "category": "Microservice",
-                        "displayName": "Bring your own app",
-                        "icon":"",
-                        "description": "my description"
-                    },
-                    {
-                        "name": "mongodb",
-                        "category": "Cloud Data Services",
-                        "displayName": "Database for MongoDB",
-                        "icon":"https://upload.wikimedia.org/wikipedia/en/thumb/4/45/MongoDB-Logo.svg/500px-MongoDB-Logo.svg.png",
-                        "description": "my description"
-                    },
-                    {
-                        "name": "singlezone",
-                        "category": "HA Deployments",
-                        "displayName": "Single Zone | One Node",
-                        "icon":"",
-                        "description": "my description"
-                    },
-                    {
-                        "name": "paidlogging",
-                        "category": "Cloud Management",
-                        "displayName": "Paid Logging",
-                        "icon":"",
-                        "description": "my description"
-                    }
-                    
-                                                                     
-                ]
-                  }
-        
-       
-    ]
+                "name": "ibmcloud_cr_namespace",
+                "type": "string",
+                "displayName": "Container Registry Namespace"
+              }
+            ],
+            "instructions": ["nodecodegen", "appsodybuild"]
+          }
+        },
+        {
+          "name": "express",
+          "displayName": "Express",
+          "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+          "category": {
+            "name": "microlang",
+            "displayName": "Microservice Language",
+            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+          },
+          "flavours": {
+            "details": {
+              "name": "express",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/440px-Expressjs.png",
+              "displayName": "Express",
+              "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+            },
+            "cost": { "type": "GB", "measurement": "hours", "unitPrice": 0 },
+            "inputs": [],
+            "instructions": []
+          }
+        },
+        {
+          "name": "appsource",
+          "displayName": "Generate Hello World or Bring Your Own App",
+          "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+          "image": "",
+          "category": {
+            "name": "microlang",
+            "displayName": "Microservice Language",
+            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+          },
+          "flavours": {
+            "details": {
+              "name": "genhw",
+              "displayName": "Generate Hello World",
+              "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+              "image": ""
+            },
+            "cost": { "type": "GB", "measurement": "hours", "unitPrice": 0 },
+            "inputs": [],
+            "instructions": []
+          }
+        },
+        {
+          "name": "postgresql",
+          "displayName": "PostgreSQL",
+          "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+          "category": {
+            "name": "clouddataservices",
+            "displayName": "Cloud Data Services",
+            "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+            "image": "data:image/svg+xml;charset=utf-8,\u003csvg xmlns=\"http://www.w3.org/2000/svg\"\u003e...\u003c/svg\u003e"
+          },
+          "flavours": {
+            "details": {
+              "name": "community",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/440px-Postgresql_elephant.svg.png",
+              "displayName": "Community Postgresql",
+              "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+            },
+            "cost": { "type": "GB", "measurement": "hours", "unitPrice": 0 },
+            "inputs": [
+              {
+                "name": "cluster_name",
+                "type": "string",
+                "displayName": "Cluster Name"
+              }
+            ],
+            "instructions": ["freepostgresql"]
+          }
+        },
+        {
+          "name": "singlezone",
+          "displayName": "Single Zone",
+          "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+          "category": {
+            "name": "HADeployments",
+            "displayName": "HA Deployments",
+            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+          },
+          "flavours": {
+            "details": {
+              "name": "onenode",
+              "displayName": "One node",
+              "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+            },
+            "cost": { "type": "GB", "measurement": "hours", "unitPrice": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "name": "kube-node-react-paidposgresql",
+      "displayName": "Evolver Pack",
+      "description": "After much trial and growth, your cloud as evolved to be larger and more powerful!",
+      "image": "https://inpokulis.com/wp-content/uploads/2015/12/placeholder.gif",
+      "category": {
+        "name": "Starter",
+        "displayName": "Starter Bundle",
+        "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+      },
+      "items": [
+        {
+          "name": "iks",
+          "displayName": "Kubernetes",
+          "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+          "category": {
+            "name": "Container",
+            "displayName": "Container",
+            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+          },
+          "flavours": {
+            "details": {
+              "name": "paid",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/440px-Kubernetes_logo_without_workmark.svg.png",
+              "displayName": "Paid Kubernetes",
+              "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+            },
+            "cost": { "unit": "hour", "price": 1 },
+            "inputs": [
+              {
+                "name": "cluster_name",
+                "type": "string",
+                "displayName": "Cluster Name"
+              },
+              { "name": "ibmcloud_api_key", "type": "API_KEY" },
+              { "name": "ibmcloud_resource_group", "type": "RESOURCE_GROUP" },
+              { "name": "ibmcloud_region", "type": "REGION" },
+              { "name": "ibmcloud_data_center", "type": "DATA_CENTER" }
+            ],
+            "instructions": ["paidkubinstructions"]
+          }
+        },
+        {
+          "name": "nodejs",
+          "displayName": "Node JS",
+          "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/440px-Node.js_logo.svg.png",
+          "category": {
+            "name": "microlang",
+            "displayName": "Microservice Language",
+            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+          },
+          "flavours": {
+            "details": {
+              "name": "react",
+              "displayName": "React",
+              "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1920px-React-icon.svg.png"
+            },
+            "cost": { "type": "GB", "measurement": "hours", "unitPrice": 0 },
+            "inputs": [
+              { "name": "git_url", "type": "GIT_URL" },
+              { "name": "git_api_key", "type": "GIT_API_KEY" },
+              { "name": "ibmcloud_api_key", "type": "API_KEY" },
+              {
+                "name": "ibmcloud_cr_namespace",
+                "type": "string",
+                "displayName": "Container Registry Namespace"
+              }
+            ],
+            "instructions": ["nodecodegen", "appsodybuild"]
+          }
+        },
+        {
+          "name": "express",
+          "displayName": "Express",
+          "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+          "category": {
+            "name": "microlang",
+            "displayName": "Microservice Language",
+            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+          },
+          "flavours": {
+            "details": {
+              "name": "express",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/440px-Expressjs.png",
+              "displayName": "Express",
+              "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+            },
+            "cost": { "type": "GB", "measurement": "hours", "unitPrice": 0 },
+            "inputs": [],
+            "instructions": []
+          }
+        },
+        {
+          "name": "appsource",
+          "displayName": "Generate Hello World or Bring Your Own App",
+          "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+          "image": "",
+          "category": {
+            "name": "microlang",
+            "displayName": "Microservice Language",
+            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+          },
+          "flavours": {
+            "details": {
+              "name": "genhw",
+              "displayName": "Generate Hello World",
+              "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+              "image": ""
+            },
+            "cost": { "type": "GB", "measurement": "hours", "unitPrice": 0 },
+            "inputs": [],
+            "instructions": []
+          }
+        },
+        {
+          "name": "postgresql",
+          "displayName": "PostgreSQL",
+          "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+          "category": {
+            "name": "clouddataservices",
+            "displayName": "Cloud Data Services",
+            "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+            "image": "data:image/svg+xml;charset=utf-8,\u003csvg xmlns=\"http://www.w3.org/2000/svg\"\u003e...\u003c/svg\u003e"
+          },
+          "flavours": {
+            "details": {
+              "name": "paid",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/440px-Postgresql_elephant.svg.png",
+              "displayName": "Paid Postgresql",
+              "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+            },
+            "cost": { "type": "GB", "measurement": "hours", "unitPrice": 0 },
+            "inputs": [
+              {
+                "name": "cluster_name",
+                "type": "string",
+                "displayName": "Cluster Name"
+              }
+            ],
+            "instructions": ["paidpostgresql"]
+          }
+        },
+        {
+          "name": "singlezone",
+          "displayName": "Single Zone",
+          "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+          "category": {
+            "name": "HADeployments",
+            "displayName": "HA Deployments",
+            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+          },
+          "flavours": {
+            "details": {
+              "name": "multinode",
+              "displayName": "Multi node",
+              "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+            },
+            "cost": { "type": "GB", "measurement": "hours", "unitPrice": 0 }
+          }
+        }
+      ]
+    },
+    {
+      "name": "kube-byoa-mongo",
+      "displayName": "Mega Evolved Pack",
+      "description": "Your cloud may as well be the Argentavis of clouds. After this mega evolution, it shall knows no bounds.",
+      "image": "https://www.ngohub.asia/assets/placeholder-5318bd543e3480ac5208c1b2a39cb2cbff1e300a622de73e5eb1314ee99f2baa.jpg",
+      "category": {
+        "name": "Starter",
+        "displayName": "Starter Bundle",
+        "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+      },
+      "items": [
+        {
+          "name": "iks",
+          "displayName": "Kubernetes",
+          "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+          "category": {
+            "name": "Container",
+            "displayName": "Container",
+            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+          },
+          "flavours": {
+            "details": {
+              "name": "paid",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/440px-Kubernetes_logo_without_workmark.svg.png",
+              "displayName": "Paid Kubernetes",
+              "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+            },
+            "cost": { "unit": "hour", "price": 1 },
+            "inputs": [
+              {
+                "name": "cluster_name",
+                "type": "string",
+                "displayName": "Cluster Name"
+              },
+              { "name": "ibmcloud_api_key", "type": "API_KEY" },
+              { "name": "ibmcloud_resource_group", "type": "RESOURCE_GROUP" },
+              { "name": "ibmcloud_region", "type": "REGION" },
+              { "name": "ibmcloud_data_center", "type": "DATA_CENTER" }
+            ],
+            "instructions": ["paidkubinstructions"]
+          }
+        },
+
+        {
+          "name": "appsource",
+          "displayName": "Generate Hello World or Bring Your Own App",
+          "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+          "image": "",
+          "category": {
+            "name": "microlang",
+            "displayName": "Microservice Language",
+            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+          },
+          "flavours": {
+            "details": {
+              "name": "byoa",
+              "displayName": "Bring Your Own App",
+              "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+              "image": ""
+            },
+            "cost": { "type": "GB", "measurement": "hours", "unitPrice": 0 },
+            "inputs": [],
+            "instructions": []
+          }
+        },
+        {
+          "name": "mongodb",
+          "displayName": "MongoDB",
+          "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+          "category": {
+            "name": "clouddataservices",
+            "displayName": "Cloud Data Services",
+            "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+            "image": "data:image/svg+xml;charset=utf-8,\u003csvg xmlns=\"http://www.w3.org/2000/svg\"\u003e...\u003c/svg\u003e"
+          },
+          "flavours": {
+            "details": {
+              "name": "paid",
+              "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/MongoDB-Logo.svg/500px-MongoDB-Logo.svg.png",
+              "displayName": "Database for MongoDB",
+              "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+            },
+            "cost": { "type": "GB", "measurement": "hours", "unitPrice": 0 },
+            "inputs": [
+              {
+                "name": "cluster_name",
+                "type": "string",
+                "displayName": "Cluster Name"
+              }
+            ],
+            "instructions": ["paidpostgresql"]
+          }
+        },
+        {
+          "name": "multizone",
+          "displayName": "Multi Zone",
+          "description": "\u003ch1\u003emy description\u003c/h1\u003e",
+          "category": {
+            "name": "HADeployments",
+            "displayName": "HA Deployments",
+            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+          },
+          "flavours": {
+            "details": {
+              "name": "multinode",
+              "displayName": "Multi node",
+              "description": "\u003ch1\u003emy description\u003c/h1\u003e"
+            },
+            "cost": { "type": "GB", "measurement": "hours", "unitPrice": 0 }
+          }
+        }
+      ]
+    }
+  ]
 }
-    
