@@ -3,6 +3,7 @@
     {
       "name": "kube-node-vue-commposgresql",
       "displayName": "Entry Pack",
+      "price" : "~ $0/month",
       "description": "\u003ch1\u003eA small hatchling of your cloud project.\u003c/h1\u003e",
       "image": "http://oneeaston.com/wp-content/uploads/2015/10/placeholder-pattern.jpg",
       "category": {
@@ -15,11 +16,8 @@
           "name": "iks",
           "displayName": "Kubernetes",
           "description": "\u003ch1\u003emy description\u003c/h1\u003e",
-          "category": {
-            "name": "Container",
-            "displayName": "Container",
-            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
-          },
+          "category": "Container",
+
           "flavours": {
             "details": {
               "name": "free",
@@ -47,11 +45,8 @@
           "displayName": "Node JS",
           "description": "\u003ch1\u003emy description\u003c/h1\u003e",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/440px-Node.js_logo.svg.png",
-          "category": {
-            "name": "microlang",
-            "displayName": "Microservice Language",
-            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
-          },
+          "category": "Microservice Language",
+
           "flavours": {
             "details": {
               "name": "vuejs",
@@ -77,18 +72,9 @@
           "name": "express",
           "displayName": "Express",
           "description": "\u003ch1\u003emy description\u003c/h1\u003e",
-          "category": {
-            "name": "microlang",
-            "displayName": "Microservice Language",
-            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
-          },
+          "category": "Microservice Language",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/440px-Expressjs.png",
           "flavours": {
-            "details": {
-              "name": "express",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/440px-Expressjs.png",
-              "displayName": "Express",
-              "description": "\u003ch1\u003emy description\u003c/h1\u003e"
-            },
             "cost": { "type": "GB", "measurement": "hours", "unitPrice": 0 },
             "inputs": [],
             "instructions": []
@@ -99,11 +85,8 @@
           "displayName": "Generate Hello World or Bring Your Own App",
           "description": "\u003ch1\u003emy description\u003c/h1\u003e",
           "image": "",
-          "category": {
-            "name": "microlang",
-            "displayName": "Microservice Language",
-            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
-          },
+          "category": "Microservice Language",
+
           "flavours": {
             "details": {
               "name": "genhw",
@@ -120,12 +103,8 @@
           "name": "postgresql",
           "displayName": "PostgreSQL",
           "description": "\u003ch1\u003emy description\u003c/h1\u003e",
-          "category": {
-            "name": "clouddataservices",
-            "displayName": "Cloud Data Services",
-            "description": "\u003ch1\u003emy description\u003c/h1\u003e",
-            "image": "data:image/svg+xml;charset=utf-8,\u003csvg xmlns=\"http://www.w3.org/2000/svg\"\u003e...\u003c/svg\u003e"
-          },
+          "category": "Cloud Data Services",
+
           "flavours": {
             "details": {
               "name": "community",
@@ -148,11 +127,8 @@
           "name": "singlezone",
           "displayName": "Single Zone",
           "description": "\u003ch1\u003emy description\u003c/h1\u003e",
-          "category": {
-            "name": "HADeployments",
-            "displayName": "HA Deployments",
-            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
-          },
+          "category": "HA Deployments",
+
           "flavours": {
             "details": {
               "name": "onenode",
@@ -167,6 +143,7 @@
     {
       "name": "kube-node-react-paidposgresql",
       "displayName": "Evolver Pack",
+      "price" : "~ $100/month",
       "description": "After much trial and growth, your cloud as evolved to be larger and more powerful!",
       "image": "https://inpokulis.com/wp-content/uploads/2015/12/placeholder.gif",
       "category": {
@@ -174,6 +151,7 @@
         "displayName": "Starter Bundle",
         "description": "\u003ch1\u003emy description\u003c/h1\u003e"
       },
+
       "items": [
         {
           "name": "iks",
@@ -191,7 +169,7 @@
               "displayName": "Paid Kubernetes",
               "description": "\u003ch1\u003emy description\u003c/h1\u003e"
             },
-            "cost": { "unit": "hour", "price": 1 },
+            "cost": { "type": "GB", "measurement": "hours", "unitPrice": 0 },
             "inputs": [
               {
                 "name": "cluster_name",
@@ -211,11 +189,8 @@
           "displayName": "Node JS",
           "description": "\u003ch1\u003emy description\u003c/h1\u003e",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/440px-Node.js_logo.svg.png",
-          "category": {
-            "name": "microlang",
-            "displayName": "Microservice Language",
-            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
-          },
+          "category":"Microservice Language",
+
           "flavours": {
             "details": {
               "name": "react",
@@ -241,18 +216,9 @@
           "name": "express",
           "displayName": "Express",
           "description": "\u003ch1\u003emy description\u003c/h1\u003e",
-          "category": {
-            "name": "microlang",
-            "displayName": "Microservice Language",
-            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
-          },
+          "category":  "Microservice Language",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/440px-Expressjs.png",
           "flavours": {
-            "details": {
-              "name": "express",
-              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/440px-Expressjs.png",
-              "displayName": "Express",
-              "description": "\u003ch1\u003emy description\u003c/h1\u003e"
-            },
             "cost": { "type": "GB", "measurement": "hours", "unitPrice": 0 },
             "inputs": [],
             "instructions": []
@@ -263,11 +229,8 @@
           "displayName": "Generate Hello World or Bring Your Own App",
           "description": "\u003ch1\u003emy description\u003c/h1\u003e",
           "image": "",
-          "category": {
-            "name": "microlang",
-            "displayName": "Microservice Language",
-            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
-          },
+          "category": "Microservice Language",
+
           "flavours": {
             "details": {
               "name": "genhw",
@@ -284,12 +247,8 @@
           "name": "postgresql",
           "displayName": "PostgreSQL",
           "description": "\u003ch1\u003emy description\u003c/h1\u003e",
-          "category": {
-            "name": "clouddataservices",
-            "displayName": "Cloud Data Services",
-            "description": "\u003ch1\u003emy description\u003c/h1\u003e",
-            "image": "data:image/svg+xml;charset=utf-8,\u003csvg xmlns=\"http://www.w3.org/2000/svg\"\u003e...\u003c/svg\u003e"
-          },
+          "category":  "Cloud Data Services",
+
           "flavours": {
             "details": {
               "name": "paid",
@@ -312,11 +271,8 @@
           "name": "singlezone",
           "displayName": "Single Zone",
           "description": "\u003ch1\u003emy description\u003c/h1\u003e",
-          "category": {
-            "name": "HADeployments",
-            "displayName": "HA Deployments",
-            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
-          },
+          "category": "HA Deployments",
+
           "flavours": {
             "details": {
               "name": "multinode",
@@ -331,6 +287,7 @@
     {
       "name": "kube-byoa-mongo",
       "displayName": "Mega Evolved Pack",
+      "price" : "~ $10,000/month",
       "description": "Your cloud may as well be the Argentavis of clouds. After this mega evolution, it shall knows no bounds.",
       "image": "https://www.ngohub.asia/assets/placeholder-5318bd543e3480ac5208c1b2a39cb2cbff1e300a622de73e5eb1314ee99f2baa.jpg",
       "category": {
@@ -343,11 +300,8 @@
           "name": "iks",
           "displayName": "Kubernetes",
           "description": "\u003ch1\u003emy description\u003c/h1\u003e",
-          "category": {
-            "name": "Container",
-            "displayName": "Container",
-            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
-          },
+          "category": "Container",
+
           "flavours": {
             "details": {
               "name": "paid",
@@ -355,7 +309,7 @@
               "displayName": "Paid Kubernetes",
               "description": "\u003ch1\u003emy description\u003c/h1\u003e"
             },
-            "cost": { "unit": "hour", "price": 1 },
+            "cost": { "type": "GB", "measurement": "hours", "unitPrice": 0 },
             "inputs": [
               {
                 "name": "cluster_name",
@@ -376,11 +330,8 @@
           "displayName": "Generate Hello World or Bring Your Own App",
           "description": "\u003ch1\u003emy description\u003c/h1\u003e",
           "image": "",
-          "category": {
-            "name": "microlang",
-            "displayName": "Microservice Language",
-            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
-          },
+          "category": "Microservice Language",
+
           "flavours": {
             "details": {
               "name": "byoa",
@@ -397,12 +348,8 @@
           "name": "mongodb",
           "displayName": "MongoDB",
           "description": "\u003ch1\u003emy description\u003c/h1\u003e",
-          "category": {
-            "name": "clouddataservices",
-            "displayName": "Cloud Data Services",
-            "description": "\u003ch1\u003emy description\u003c/h1\u003e",
-            "image": "data:image/svg+xml;charset=utf-8,\u003csvg xmlns=\"http://www.w3.org/2000/svg\"\u003e...\u003c/svg\u003e"
-          },
+          "category": "Cloud Data Services",
+
           "flavours": {
             "details": {
               "name": "paid",
@@ -425,11 +372,8 @@
           "name": "multizone",
           "displayName": "Multi Zone",
           "description": "\u003ch1\u003emy description\u003c/h1\u003e",
-          "category": {
-            "name": "HADeployments",
-            "displayName": "HA Deployments",
-            "description": "\u003ch1\u003emy description\u003c/h1\u003e"
-          },
+          "category": "HA Deployments",
+
           "flavours": {
             "details": {
               "name": "multinode",
